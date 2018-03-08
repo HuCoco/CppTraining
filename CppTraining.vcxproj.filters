@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{4dd8ee31-4879-4af5-adf8-9b3e8e4d0e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{f7e10ab2-08f3-46c4-b9be-b31e66508c95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{dedeabac-5ca4-4156-89ac-6a8b82fdfc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure\Graph">
+      <UniqueIdentifier>{f494fe8f-7044-4ce2-bc54-7d37cfa4a7a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Comnmon\Types.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Graph\Graph.h">
+      <Filter>DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Graph\GraphData.h">
+      <Filter>DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Graph\GraphList.h">
+      <Filter>DataStructure\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\Graph\GraphMatrix.h">
+      <Filter>DataStructure\Graph</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DataStructure\Graph\Graph.cpp">
+      <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\Graph\main.cpp" />
+    <ClCompile Include="DataStructure\Graph\GraphMatrix.cpp">
+      <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\Graph\GraphList.cpp">
+      <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
