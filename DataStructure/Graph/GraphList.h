@@ -5,7 +5,6 @@
 class GraphList : public GraphData
 {
 public:
-
     GraphList(u32 num);
     virtual ~GraphList() override;
 protected:

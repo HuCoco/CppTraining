@@ -30,6 +30,9 @@
     <ClInclude Include="DataStructure\Graph\GraphMatrix.h">
       <Filter>DataStructure\Graph</Filter>
     </ClInclude>
+    <ClInclude Include="DataStructure\Graph\UndirectedGraph.h">
+      <Filter>DataStructure\Graph</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure\Graph\Graph.cpp">
@@ -40,6 +43,9 @@
       <Filter>DataStructure\Graph</Filter>
     </ClCompile>
     <ClCompile Include="DataStructure\Graph\GraphList.cpp">
+      <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\Graph\UndirectedGraph.cpp">
       <Filter>DataStructure\Graph</Filter>
     </ClCompile>
   </ItemGroup>

@@ -24,12 +24,14 @@
     <ClInclude Include="DataStructure\Graph\GraphData.h" />
     <ClInclude Include="DataStructure\Graph\GraphList.h" />
     <ClInclude Include="DataStructure\Graph\GraphMatrix.h" />
+    <ClInclude Include="DataStructure\Graph\UndirectedGraph.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructure\Graph\Graph.cpp" />
     <ClCompile Include="DataStructure\Graph\GraphList.cpp" />
     <ClCompile Include="DataStructure\Graph\GraphMatrix.cpp" />
     <ClCompile Include="DataStructure\Graph\main.cpp" />
+    <ClCompile Include="DataStructure\Graph\UndirectedGraph.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

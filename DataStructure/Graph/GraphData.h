@@ -11,6 +11,7 @@ class GraphData
 {
 protected:
     GraphData() = default;
+public:
     virtual ~GraphData() = default;
 public:
     inline PathState Get(u32 in, u32 out) { return GetHelper(in, out); }
